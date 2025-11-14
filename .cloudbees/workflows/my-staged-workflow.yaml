@@ -8,7 +8,6 @@ metadata:
     - name: Stage 1
       jobs:
         - job1
-        - job2
     - name: Stage 2
       jobs:
         - job2

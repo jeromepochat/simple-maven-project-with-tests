@@ -3,6 +3,9 @@ kind: workflow
 name: My staged workflow
 on:
   workflow_dispatch: null
+  push:
+    branches:
+      - '**'
 metadata:
   stages/v1alpha1:
     - name: Stage 1

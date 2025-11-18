@@ -7,6 +7,6 @@ public class X {
      * Does something.
      */
     public void someMethod() {
-        System.out.println("Doing something");
+        System.out.println("Doing something more useful");
     }
 }
